@@ -1,0 +1,5 @@
+{"type":"server-started","port":54854,"host":"127.0.0.1","url_host":"localhost","url":"http://localhost:54854","screen_dir":"/Users/josephkim/projects/reformed-gpt/.superpowers/brainstorm/37024-1775612447/content","state_dir":"/Users/josephkim/projects/reformed-gpt/.superpowers/brainstorm/37024-1775612447/state"}
+{"type":"screen-added","file":"/Users/josephkim/projects/reformed-gpt/.superpowers/brainstorm/37024-1775612447/content/layout.html"}
+{"type":"screen-added","file":"/Users/josephkim/projects/reformed-gpt/.superpowers/brainstorm/37024-1775612447/content/layout-v2.html"}
+{"type":"screen-added","file":"/Users/josephkim/projects/reformed-gpt/.superpowers/brainstorm/37024-1775612447/content/waiting.html"}
+{"type":"server-stopped","reason":"idle timeout"}

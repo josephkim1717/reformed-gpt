@@ -1,0 +1,22 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(/Users/josephkim/.claude/plugins/cache/claude-plugins-official/superpowers/5.0.7/skills/brainstorming/scripts/start-server.sh:*)",
+      "Bash(curl -s https://ai-gateway.vercel.sh/v1/models)",
+      "Bash(git init:*)",
+      "Bash(git add:*)",
+      "Bash(git commit:*)",
+      "Bash(git checkout:*)",
+      "Bash(git -C /Users/josephkim/projects/reformed-gpt status)",
+      "Bash(npx create-next-app@latest . --typescript --tailwind --app --no-src-dir --import-alias \"@/*\" --turbopack --no-git)",
+      "Bash(yes)",
+      "Bash(npx create-next-app@latest:*)",
+      "Bash(rsync:*)",
+      "Bash(npm install:*)",
+      "Bash(npx shadcn@latest:*)",
+      "Bash(printf '\\\\n')",
+      "Bash(echo \"EXIT: $?\")",
+      "Bash(printf '\\\\n\\\\n\\\\n\\\\n\\\\n\\\\n\\\\n\\\\n\\\\n\\\\n')"
+    ]
+  }
+}

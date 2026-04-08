@@ -1,0 +1,94 @@
+<h2>Chat Interface Layout</h2>
+<p class="subtitle">Which layout feels right for a theology chatbot?</p>
+
+<div class="cards">
+
+  <div class="card" data-choice="a" onclick="toggleSelect(this)">
+    <div class="card-image">
+      <div class="mockup" style="font-size:11px;">
+        <div class="mockup-header">Reformed GPT — Layout A: Centered Chat</div>
+        <div class="mockup-body" style="padding:12px;background:#1a1a1a;min-height:160px;display:flex;flex-direction:column;gap:8px;">
+          <div style="display:flex;justify-content:center;margin-bottom:4px;">
+            <span style="color:#c9a84c;font-size:13px;font-weight:bold;">✦ Reformed GPT</span>
+          </div>
+          <div style="background:#2a2a2a;border-radius:8px;padding:8px;color:#ccc;max-width:75%;align-self:flex-start;">
+            What does the Westminster Confession say about God's sovereignty?
+          </div>
+          <div style="background:#3a2e1a;border:1px solid #c9a84c44;border-radius:8px;padding:8px;color:#ddd;max-width:85%;align-self:flex-end;">
+            The WCF (Ch. 5) teaches that God the great Creator of all things doth uphold, direct, dispose, and govern all creatures... <span style="color:#c9a84c;font-size:10px;">[WCF 5.1]</span>
+          </div>
+          <div style="margin-top:auto;display:flex;gap:6px;">
+            <div class="mock-input" style="flex:1;font-size:11px;background:#111;border-color:#333;">Ask about Reformed theology...</div>
+            <button class="mock-button" style="font-size:11px;background:#c9a84c;color:#111;border:none;">Send</button>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="card-body">
+      <h3>A — Centered Chat</h3>
+      <p>Classic chat layout, centered column, dark theme with gold accent. Clean and focused.</p>
+    </div>
+  </div>
+
+  <div class="card" data-choice="b" onclick="toggleSelect(this)">
+    <div class="card-image">
+      <div class="mockup" style="font-size:11px;">
+        <div class="mockup-header">Reformed GPT — Layout B: Sidebar + Chat</div>
+        <div class="mockup-body" style="padding:0;background:#1a1a1a;min-height:160px;display:flex;">
+          <div style="width:90px;background:#111;border-right:1px solid #333;padding:8px;display:flex;flex-direction:column;gap:6px;">
+            <span style="color:#c9a84c;font-size:10px;font-weight:bold;">Topics</span>
+            <span style="color:#888;font-size:9px;">Salvation</span>
+            <span style="color:#888;font-size:9px;">Scripture</span>
+            <span style="color:#888;font-size:9px;">Church</span>
+            <span style="color:#888;font-size:9px;">Prayer</span>
+            <span style="color:#888;font-size:9px;">+ New Chat</span>
+          </div>
+          <div style="flex:1;padding:10px;display:flex;flex-direction:column;gap:8px;">
+            <div style="background:#2a2a2a;border-radius:6px;padding:6px;color:#ccc;font-size:10px;max-width:80%;">
+              What is justification by faith alone?
+            </div>
+            <div style="background:#3a2e1a;border:1px solid #c9a84c44;border-radius:6px;padding:6px;color:#ddd;font-size:10px;align-self:flex-end;max-width:85%;">
+              Justification is an act of God's free grace... <span style="color:#c9a84c;">[WSC Q.33]</span>
+            </div>
+            <div style="margin-top:auto;display:flex;gap:4px;">
+              <div style="flex:1;background:#111;border:1px solid #333;border-radius:4px;padding:4px;color:#555;font-size:9px;">Ask a question...</div>
+              <button style="background:#c9a84c;color:#111;border:none;border-radius:4px;padding:4px 8px;font-size:9px;">→</button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="card-body">
+      <h3>B — Sidebar + Chat</h3>
+      <p>Topic shortcuts and chat history in a sidebar. More structured, feels like a study tool.</p>
+    </div>
+  </div>
+
+  <div class="card" data-choice="c" onclick="toggleSelect(this)">
+    <div class="card-image">
+      <div class="mockup" style="font-size:11px;">
+        <div class="mockup-header">Reformed GPT — Layout C: Light / Parchment</div>
+        <div class="mockup-body" style="padding:12px;background:#f5f0e8;min-height:160px;display:flex;flex-direction:column;gap:8px;">
+          <div style="display:flex;justify-content:center;margin-bottom:4px;">
+            <span style="color:#5a3e1b;font-size:13px;font-weight:bold;font-family:Georgia,serif;">Reformed GPT</span>
+          </div>
+          <div style="background:#e8e0cc;border-radius:8px;padding:8px;color:#333;max-width:75%;align-self:flex-start;font-family:Georgia,serif;font-size:10px;">
+            Explain the covenant of grace.
+          </div>
+          <div style="background:#fff8e8;border:1px solid #c9a84c88;border-radius:8px;padding:8px;color:#222;max-width:85%;align-self:flex-end;font-family:Georgia,serif;font-size:10px;">
+            The covenant of grace was made with Christ as the second Adam... <span style="color:#8b5e1a;">[WCF 7.3]</span>
+          </div>
+          <div style="margin-top:auto;display:flex;gap:6px;">
+            <div style="flex:1;background:#fff;border:1px solid #c9a84c66;border-radius:4px;padding:5px;color:#999;font-size:9px;font-family:Georgia,serif;">Ask a theological question...</div>
+            <button style="background:#5a3e1b;color:#fff;border:none;border-radius:4px;padding:5px 10px;font-size:9px;">Send</button>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="card-body">
+      <h3>C — Light / Parchment</h3>
+      <p>Warm, book-like aesthetic. Serif fonts, cream background. Feels like reading theology.</p>
+    </div>
+  </div>
+
+</div>
