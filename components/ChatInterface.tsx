@@ -27,9 +27,13 @@ export function ChatInterface() {
     setMessages([])
   }
 
+  function handleTopicSelect(topic: string) {
+    setInput(`Tell me about ${topic} from a Reformed perspective.`)
+  }
+
   return (
     <div className="flex h-screen bg-parchment">
-      <Sidebar onNewChat={handleNewChat} />
+      <Sidebar onNewChat={handleNewChat} onTopicSelect={handleTopicSelect} />
       <main className="flex flex-col flex-1 p-6 overflow-hidden">
         <MessageList messages={messages} />
         {error && (

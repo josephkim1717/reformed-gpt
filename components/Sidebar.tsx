@@ -9,15 +9,17 @@ const TOPICS = [
 
 interface SidebarProps {
   onNewChat: () => void
+  onTopicSelect?: (topic: string) => void
 }
 
-export function Sidebar({ onNewChat }: SidebarProps) {
+export function Sidebar({ onNewChat, onTopicSelect }: SidebarProps) {
   return (
     <aside className="w-40 bg-parchment-dark border-r border-gold/30 flex flex-col py-4 px-3 gap-1 shrink-0">
       <span className="font-serif font-bold text-brown text-sm mb-2">Topics</span>
       {TOPICS.map(({ label, emoji }) => (
         <button
           key={label}
+          onClick={() => onTopicSelect?.(label)}
           className="text-left text-brown-mid font-serif text-xs px-2 py-1.5 rounded hover:bg-parchment transition-colors"
         >
           {emoji} {label}
