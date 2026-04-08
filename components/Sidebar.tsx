@@ -5,6 +5,7 @@ const TOPICS = [
   { label: 'Ecclesiology', emoji: '⛪' },
   { label: 'Holy Spirit', emoji: '🕊️' },
   { label: 'Last Things', emoji: '⚖️' },
+  { label: 'Apologetics', emoji: '🛡️' },
 ]
 
 interface SidebarProps {
